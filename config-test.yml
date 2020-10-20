@@ -1,2 +1,7 @@
 config:
-  info: config-test
+  info: config-test   version = 1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
